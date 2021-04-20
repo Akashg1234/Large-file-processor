@@ -206,7 +206,7 @@ if __name__=='__main__':
     
     # table truncate triggering method
     def trigger_truncate_data_db():
-        user_choice=input("Are you sure..to truncate data..")
+        user_choice=input("Are you sure..to truncate data..[y/n]")
         if user_choice=='y' or user_choice=='Y':
             table_name=input("Enter table name...:\n")
             if table_name is None or table_name =="":trigger_truncate_data_db()
