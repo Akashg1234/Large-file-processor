@@ -294,7 +294,7 @@ if __name__=='__main__':
     def print_choice():    # user choice printing
         for i in switch.keys():
             print("{} -> {}".format(i,switch[i][0]))
-        print("\n Enter operation option index..\n")
+        print("\n Enter operation option index..\nUse database first (recomended)")
 
     # calling the methods accordingly...    
     print_choice()     
